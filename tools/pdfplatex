@@ -1,0 +1,7 @@
+#!/bin/sh
+
+DVI_FILE=`echo $1 | sed -e "s/\.tex/.dvi/"`
+echo ** This is a substitute script of pdflatex.
+echo $EVI_FILE
+platex %@ && dvipdfmx $DVI_FILE
+
