@@ -1,7 +1,7 @@
 # My Emacs init.el files
 
 ## How to inital setup
-    $ mkdir -p ~/.emacs.d
+    $ mkdir ~/.emacs.d
     $ cd ~/.emacs.d
     $ git pull https://github.com/st63jun/dotemacs.git init.el.d
     $ ln -s init.el.d/init.el
