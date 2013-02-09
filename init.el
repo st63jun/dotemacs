@@ -13,6 +13,7 @@
 (load "~/.emacs.d/init.el.d/shell.el")
 (load "~/.emacs.d/init.el.d/org.el")
 (load "~/.emacs.d/init.el.d/latex.el")
+(load "~/.emacs.d/init.el.d/c.el")
 (load "~/.emacs.d/init.el.d/java.el")
 
 (if (file-exists-p "~/.emacs.d/init.el.d/local.el")
