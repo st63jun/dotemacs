@@ -24,7 +24,7 @@
 (setq org-babel-scheme-cmd "gosh")
 
 ;; ditaa path
-(setq org-ditaa-jar-path "~/.emacs.d/init.el.d/tools/ditaa0_9.jar")
+(setq org-ditaa-jar-path "~/.emacs.d/init.el.d/tools/ditaa0_9/ditaa0_9.jar")
 
 ;; LaTeX export
 (require 'org-latex)
