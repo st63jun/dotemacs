@@ -11,6 +11,9 @@
 (global-set-key (kbd "C-x C-y") 'other-frame)
 (global-set-key (kbd "C-o") 'other-window)
 
+;; marking
+(global-set-key (kbd "M-SPC") 'set-mark-command)
+ 
 ;; Windmove
 (setq windmove-wrap-around t)
 (global-set-key (kbd "C-x h") 'windmove-left)
