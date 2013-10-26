@@ -15,6 +15,7 @@
 (load "~/.emacs.d/init.el.d/latex.el")
 (load "~/.emacs.d/init.el.d/c.el")
 (load "~/.emacs.d/init.el.d/java.el")
+(load "~/.emacs.d/init.el.d/js.el")
 
 (if (file-exists-p "~/.emacs.d/init.el.d/local.el")
     (load "~/.emacs.d/init.el.d/local.el"))
